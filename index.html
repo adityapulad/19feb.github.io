@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE Society - Computer Science & Engineering</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="bg-glow"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo-container">
+                <img src="images/Logo1.png" alt="CSE Society" class="nav-logo">
+                <span class="logo-text">CSE Society</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="clubs.html">Clubs</a></li>
+            </ul>
+            <a href="login.html" class="btn btn-secondary nav-login">Login</a>
+            <div class="theme-toggle">
+                <input type="checkbox" id="themeToggle" class="theme-toggle-input">
+                <label for="themeToggle" class="theme-toggle-label">
+                    <span class="toggle-icon">🌙</span>
+                </label>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero section-reveal">
+        <div class="hero-badge">💻 Transform Theory into Innovation</div>
+        <p class="team-name">Team: Valyrian Variables</p>
+        <h1 class="hero-title">Building the Next Generation of <br><span class="gradient-text">Digital Infrastructure</span></h1>
+        <p class="hero-subtitle">An elite collective of developers, engineers, and tech visionaries. We transform academic theory into industry-grade software through innovation, scalability, and collaborative problem-solving.</p>
+        <div class="hero-actions">
+            <a href="#about" class="btn btn-primary">Discover Our Mission</a>
+            <a href="#events" class="btn btn-secondary">Join Us Today</a>
+        </div>
+    </section>
+
+    <section id="announcements" class="announcements-section section-reveal">
+        <div class="container">
+            <div class="announcements-header">
+                <h2>📢 Highlights & Announcements</h2>
+                <p>Upcoming events and opportunities to join the action</p>
+            </div>
+
+            <div class="announcements-grid">
+                <!-- Event 1 -->
+                <div class="announcement-card">
+                    <div class="event-badge urgent">Upcoming</div>
+                    <div class="announcement-content">
+                        <h3>Spring Hackathon 2026</h3>
+                        <div class="event-meta">
+                            <span class="date-badge">📅 March 15-17, 2026</span>
+                            <span class="location-badge">📍 Main Campus</span>
+                        </div>
+                        <p class="announcement-text">48-hour intensive coding challenge where students showcase innovative solutions. Featuring mentorship from industry experts, exciting prizes, and networking opportunities.</p>
+                        <a href="registration.html?club=coding" class="btn btn-primary btn-small">Register Now</a>
+                    </div>
+                </div>
+
+                <!-- Event 2 -->
+                <div class="announcement-card">
+                    <div class="event-badge featured">Featured</div>
+                    <div class="announcement-content">
+                        <h3>System Design & Architecture Workshop</h3>
+                        <div class="event-meta">
+                            <span class="date-badge">📅 April 2, 2026</span>
+                            <span class="location-badge">📍 CSE Lab, Building A</span>
+                        </div>
+                        <p class="announcement-text">Learn to architect scalable systems used by tech giants. Expert session covering distributed systems, microservices, and real-world case studies from top companies.</p>
+                        <a href="#events" class="btn btn-primary btn-small">Register Now</a>
+                    </div>
+                </div>
+
+                <!-- Event 3 -->
+                <div class="announcement-card">
+                    <div class="event-badge">Latest</div>
+                    <div class="announcement-content">
+                        <h3>AI/ML Research Seminar</h3>
+                        <div class="event-meta">
+                            <span class="date-badge">📅 April 10, 2026</span>
+                            <span class="location-badge">📍 Online & Offline</span>
+                        </div>
+                        <p class="announcement-text">Join us for an interactive session on latest trends in AI and Machine Learning. Featuring research paper discussions, live demonstrations, and Q&A with our AI club experts.</p>
+                        <a href="registration.html?club=ai" class="btn btn-primary btn-small">Register Now</a>
+                    </div>
+                </div>
+
+                <!-- Event 4 -->
+                <div class="announcement-card">
+                    <div class="event-badge">New</div>
+                    <div class="announcement-content">
+                        <h3>Web Development Bootcamp</h3>
+                        <div class="event-meta">
+                            <span class="date-badge">📅 May 5-19, 2026</span>
+                            <span class="location-badge">📍 CSE Department</span>
+                        </div>
+                        <p class="announcement-text">Intensive 3-week bootcamp covering modern web development with React, Node.js, and database design. Build real-world projects and gain practical industry experience.</p>
+                        <a href="registration.html?club=webdev" class="btn btn-primary btn-small">Register Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section section-reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>About CSE Society</h2>
+                <p>Our Mission & Vision</p>
+            </div>
+            
+            <div class="bento-grid">
+                <div class="bento-item col-span-2">
+                    <h3>🎯 Our Mission</h3>
+                    <p>The Computer Science & Engineering (CSE) Society is an elite collective of developers, engineers, and tech visionaries. We serve as the crucible where academic theory transforms into industry-grade software. Driven by innovation and structured on scalable principles, our society fosters a culture of continuous learning, algorithmic excellence, and collaborative problem-solving to build the next generation of digital infrastructure.</p>
+                </div>
+                <div class="bento-item">
+                    <h3>🚀 Algorithmic Excellence</h3>
+                    <p>We master complex algorithms and data structures, pushing the boundaries of computational thinking and problem-solving.</p>
+                </div>
+                <div class="bento-item">
+                    <h3>💡 Core Activities</h3>
+                    <ul class="sleek-list">
+                        <li>System Design Workshops</li>
+                        <li>Competitive Programming</li>
+                        <li>Industry Mentorship Programs</li>
+                        <li>Open Source Contributions</li>
+                    </ul>
+                </div>
+                <div class="bento-item col-span-2">
+                    <div class="stats-container">
+                        <div class="stat">
+                            <span class="stat-num">500+</span>
+                            <span class="stat-label">Active Members</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">50+</span>
+                            <span class="stat-label">Hackathon Wins</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">100k+</span>
+                            <span class="stat-label">Lines Contributed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Past Activities Section -->
+            <div class="past-activities-container">
+                <h2 class="section-subtitle">🏆 Our Past Achievements & Activities</h2>
+                <div class="activities-timeline">
+                    <div class="activity-item">
+                        <div class="activity-marker"></div>
+                        <div class="activity-content">
+                            <h3>Winter Hackathon 2025</h3>
+                            <p class="activity-date">December 2025</p>
+                            <p class="activity-description">Successfully organized a 48-hour hackathon with 200+ participants and mentorship from top tech professionals. 5 innovative projects showcased with prizes worth ₹50,000.</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-item">
+                        <div class="activity-marker"></div>
+                        <div class="activity-content">
+                            <h3>Full Stack Development Bootcamp</h3>
+                            <p class="activity-date">October 2025</p>
+                            <p class="activity-description">Completed a comprehensive 6-week bootcamp training 150+ students in React, Node.js, MongoDB, and deployment. 95% of participants completed all hands-on projects successfully.</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-item">
+                        <div class="activity-marker"></div>
+                        <div class="activity-content">
+                            <h3>Competitive Programming Championship</h3>
+                            <p class="activity-date">September 2025</p>
+                            <p class="activity-description">Conducted an annual programming contest with 300+ participants competing across multiple difficulty levels. Winners received recognition and internship opportunities at partner companies.</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-item">
+                        <div class="activity-marker"></div>
+                        <div class="activity-content">
+                            <h3>Open Source Contribution Drive</h3>
+                            <p class="activity-date">August 2025</p>
+                            <p class="activity-description">Led an initiative where 75+ members contributed to open-source projects. Achieved 500+ merged pull requests and helped beginners understand the open-source ecosystem.</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-item">
+                        <div class="activity-marker"></div>
+                        <div class="activity-content">
+                            <h3>AI/ML Workshop Series</h3>
+                            <p class="activity-date">July 2025</p>
+                            <p class="activity-description">Organized 4-part workshop series on Machine Learning fundamentals, Deep Learning, NLP, and Computer Vision. 180+ students participated with practical hands-on experience.</p>
+                        </div>
+                    </div>
+
+                    <div class="activity-item">
+                        <div class="activity-marker"></div>
+                        <div class="activity-content">
+                            <h3>Industry Expert Panel Discussion</h3>
+                            <p class="activity-date">June 2025</p>
+                            <p class="activity-description">Hosted panel discussion featuring engineers from Google, Microsoft, and Amazon. 400+ attendees gained insights on current industry trends and career opportunities in tech.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="events" class="section section-reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>Upcoming Events</h2>
+                <p>Transform your skills through our technical events and workshops</p>
+            </div>
+            
+            <div class="event-cards">
+                <div class="event-card">
+                    <div class="event-date">Mar 15</div>
+                    <div class="event-details">
+                        <h3>Spring Hackathon 2026</h3>
+                        <p>48-hour challenge to build innovative solutions with mentorship from industry experts.</p>
+                    </div>
+                    <button class="btn btn-outline">Register</button>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">Apr 02</div>
+                    <div class="event-details">
+                        <h3>System Design Workshop</h3>
+                        <p>Learn to architect scalable systems used by tech giants.</p>
+                    </div>
+                    <button class="btn btn-outline">Register</button>
+                </div>
+                <div class="event-card">
+                    <div class="event-date">May 10</div>
+                    <div class="event-details">
+                        <h3>Industry Connect Meetup</h3>
+                        <p>Networking session with engineers from leading tech companies.</p>
+                    </div>
+                    <button class="btn btn-outline">Register</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="section section-reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>Leadership Team</h2>
+                <p>Meet the visionaries driving CSE Society's excellence</p>
+            </div>
+            
+            <div class="team-grid">
+                <!-- CSE Department HOD -->
+                <div class="team-card faculty-card">
+                    <div class="avatar-wrapper">
+                        <img src="images/shashisir.jpeg" alt="Dr. Shashi Gurung" class="avatar">
+                    </div>
+                    <h3>Dr. Shashi Gurung</h3>
+                    <p class="team-role">CSE Department HOD</p>
+                    <p class="team-description">Distinguished academic leader with extensive industry experience. Oversees and supports CSE Society initiatives. Committed to bridging the gap between academic excellence and practical industry applications.</p>
+                </div>
+
+                <!-- CSE Society Coordinator -->
+                <div class="team-card faculty-card">
+                    <div class="avatar-wrapper">
+                        <img src="images/ravisir.jpeg" alt="Er. Ravi Kumar" class="avatar">
+                    </div>
+                    <h3>Er. Ravi Kumar</h3>
+                    <p class="team-role">CSE Society Coordinator</p>
+                    <p class="team-description">Experienced faculty coordinator with a passion for student development. Guides and mentors society members. Facilitates collaboration between students and industry experts for mutual growth.</p>
+                </div>
+
+                <!-- President -->
+                <div class="team-card">
+                    <div class="avatar-wrapper">
+                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=President123" alt="Rahul Sharma" class="avatar">
+                    </div>
+                    <h3>Rahul Sharma</h3>
+                    <p class="team-role">President & Founder</p>
+                    <p class="team-description">Visionary leader with 3+ years of experience in building scalable systems. Expert in system design and mentoring young developers. Passionate about fostering innovation and excellence within the society.</p>
+                </div>
+
+                <!-- Vice President -->
+                <div class="team-card">
+                    <div class="avatar-wrapper">
+                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=VicePresident456" alt="Priya Patel" class="avatar">
+                    </div>
+                    <h3>Priya Patel</h3>
+                    <p class="team-role">Vice President</p>
+                    <p class="team-description">Strategic organizer with expertise in project management and team coordination. Leads initiatives for club development and member engagement. Committed to creating a supportive community for all members.</p>
+                </div>
+
+                <!-- Technical Lead -->
+                <div class="team-card">
+                    <div class="avatar-wrapper">
+                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=TechLead789" alt="Arjun Kumar" class="avatar">
+                    </div>
+                    <h3>Arjun Kumar</h3>
+                    <p class="team-role">Technical Lead</p>
+                    <p class="team-description">Full-stack developer with expertise in modern web technologies and DevOps. Oversees technical workshops and coding competitions. Driven by the mission to build industry-ready developers.</p>
+                </div>
+
+                <!-- AI & ML Head -->
+                <div class="team-card">
+                    <div class="avatar-wrapper">
+                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=AIHead321" alt="Neha Singh" class="avatar">
+                    </div>
+                    <h3>Neha Singh</h3>
+                    <p class="team-role">AI & ML Head</p>
+                    <p class="team-description">Machine learning researcher with publications in top-tier conferences. Leads AI club initiatives and research projects. Passionate about democratizing AI knowledge among students.</p>
+                </div>
+
+                <!-- Events Coordinator -->
+                <div class="team-card">
+                    <div class="avatar-wrapper">
+                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=EventsHead654" alt="Vikram Patel" class="avatar">
+                    </div>
+                    <h3>Vikram Patel</h3>
+                    <p class="team-role">Events Coordinator</p>
+                    <p class="team-description">Organizer of successful hackathons and technical events. Manages sponsorships and industry connections. Creates memorable experiences that bring the community together.</p>
+                </div>
+
+                <!-- Web Development Lead -->
+                <div class="team-card">
+                    <div class="avatar-wrapper">
+                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=WebLead987" alt="Ananya Gupta" class="avatar">
+                    </div>
+                    <h3>Ananya Gupta</h3>
+                    <p class="team-role">Web Development Lead</p>
+                    <p class="team-description">UI/UX specialist and full-stack developer. Leads WebDev club workshops and mentors students in modern web technologies. Focused on creating beautiful and functional digital experiences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section section-reveal">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Get In Touch</h2>
+                    <p>Have questions, want to collaborate, or interested in sponsoring our events? We'd love to hear from you!</p>
+                </div>
+                <form id="contact-form" class="sleek-form">
+                    <div class="input-group">
+                        <input type="text" id="name" required placeholder=" ">
+                        <label for="name">Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required placeholder=" ">
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="4" required placeholder=" "></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    <div id="form-feedback" class="feedback"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo-container">
+                    <span class="logo-text">CSE Society</span>
+                </div>
+                <p class="copyright">© 2026 CSE Society. Transforming Vision into Reality.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

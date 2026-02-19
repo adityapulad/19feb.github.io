@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - CSE Society</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <div class="bg-glow"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo-container">
+                <img src="images/Logo.png" alt="CSE Society" class="nav-logo">
+                <span class="logo-text">CSE Society</span>
+            </a>
+            <div class="theme-toggle">
+                <input type="checkbox" id="themeToggle" class="theme-toggle-input">
+                <label for="themeToggle" class="theme-toggle-label">
+                    <span class="toggle-icon">🌙</span>
+                </label>
+            </div>
+        </div>
+    </nav>
+
+    <section class="login-container">
+        <div class="login-box">
+            <div class="login-header">
+                <h1>Welcome Back</h1>
+                <p>Sign in to your CSE Society account</p>
+            </div>
+
+            <form class="login-form" id="loginForm">
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input 
+                        type="email" 
+                        id="email" 
+                        name="email" 
+                        placeholder="your@email.com" 
+                        required
+                    >
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input 
+                        type="password" 
+                        id="password" 
+                        name="password" 
+                        placeholder="Enter your password" 
+                        required
+                    >
+                </div>
+
+                <div class="form-group checkbox">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Remember me</label>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">Sign In</button>
+            </form>
+
+            <div class="login-footer">
+                <p>Don't have an account? <a href="#signup">Create one</a></p>
+                <p><a href="#forgot">Forgot your password?</a></p>
+            </div>
+
+            <div class="divider">or</div>
+
+            <button class="btn btn-social">
+                <span>Sign in with GitHub</span>
+            </button>
+        </div>
+    </section>
+
+    <script src="login.js"></script>
+
+</body>
+</html>

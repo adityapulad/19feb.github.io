@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clubs - CSE Society</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="clubs.css">
+</head>
+<body>
+
+    <div class="bg-glow"></div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo-container">
+                <img src="images/Logo1.png" alt="CSE Society" class="nav-logo">
+                <span class="logo-text">CSE Society</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#events">Events</a></li>
+                <li><a href="index.html#team">Team</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="clubs.html">Clubs</a></li>
+            </ul>
+            <a href="login.html" class="btn btn-secondary nav-login">Login</a>
+            <div class="theme-toggle">
+                <input type="checkbox" id="themeToggle" class="theme-toggle-input">
+                <label for="themeToggle" class="theme-toggle-label">
+                    <span class="toggle-icon">🌙</span>
+                </label>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="clubs-hero section-reveal">
+        <div class="clubs-header">
+            <h1>Our Clubs</h1>
+            <p>Join a specialized community and grow your skills</p>
+        </div>
+    </section>
+
+    <section class="clubs-section">
+        <div class="container">
+            <div class="clubs-grid">
+                <!-- Coding Club -->
+                <div class="club-card">
+                    <div class="club-icon">💻</div>
+                    <h3 class="club-name">Coding Club</h3>
+                    <p class="club-description">Master competitive programming, algorithms, and data structures with our elite coders.</p>
+                    <ul class="club-benefits">
+                        <li>Weekly coding contests</li>
+                        <li>Algorithm masterclasses</li>
+                        <li>Peer programming sessions</li>
+                    </ul>
+                    <a href="registration.html?club=coding" class="btn btn-primary club-btn">Join Now</a>
+                </div>
+
+                <!-- AI Club -->
+                <div class="club-card">
+                    <div class="club-icon">🤖</div>
+                    <h3 class="club-name">AI Club</h3>
+                    <p class="club-description">Explore machine learning, deep learning, and artificial intelligence applications.</p>
+                    <ul class="club-benefits">
+                        <li>ML/DL workshops</li>
+                        <li>AI projects</li>
+                        <li>Research papers discussion</li>
+                    </ul>
+                    <a href="registration.html?club=ai" class="btn btn-primary club-btn">Join Now</a>
+                </div>
+
+                <!-- Web Development Club -->
+                <div class="club-card">
+                    <div class="club-icon">🌐</div>
+                    <h3 class="club-name">WebDev Club</h3>
+                    <p class="club-description">Design and develop stunning web applications using modern frameworks.</p>
+                    <ul class="club-benefits">
+                        <li>Frontend & Backend development</li>
+                        <li>Full-stack projects</li>
+                        <li>UI/UX design sessions</li>
+                    </ul>
+                    <a href="registration.html?club=webdev" class="btn btn-primary club-btn">Join Now</a>
+                </div>
+
+                <!-- Literary Club -->
+                <div class="club-card">
+                    <div class="club-icon">📚</div>
+                    <h3 class="club-name">Literary Club</h3>
+                    <p class="club-description">Celebrate the art of writing, programming documentation, and technical communication.</p>
+                    <ul class="club-benefits">
+                        <li>Technical writing workshops</li>
+                        <li>Documentation projects</li>
+                        <li>Content creation sessions</li>
+                    </ul>
+                    <a href="registration.html?club=literary" class="btn btn-primary club-btn">Join Now</a>
+                </div>
+
+                <!-- Research Club -->
+                <div class="club-card">
+                    <div class="club-icon">🔬</div>
+                    <h3 class="club-name">Research Club</h3>
+                    <p class="club-description">Dive deep into cutting-edge research and contribute to the technological frontier.</p>
+                    <ul class="club-benefits">
+                        <li>Research paper analysis</li>
+                        <li>Publication guidance</li>
+                        <li>Innovation projects</li>
+                    </ul>
+                    <a href="registration.html?club=research" class="btn btn-primary club-btn">Join Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo-container">
+                    <span class="logo-text">CSE Society</span>
+                </div>
+                <p class="copyright">© 2026 CSE Society. Transforming Vision into Reality.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
